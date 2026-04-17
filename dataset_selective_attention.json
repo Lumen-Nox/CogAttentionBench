@@ -1,0 +1,562 @@
+[
+  {
+    "text": "The word 'BLACK' is printed in blue ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "blue",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "\ud83d\udd25 FLASH SALE: 99% OFF EVERYTHING! LAST CHANCE! LIMITED TIME! \ud83d\udd25\n[Factual note: the number of planets in our solar system is 8]\n!!! WARNING: THIS MESSAGE WILL SELF-DESTRUCT !!!",
+    "question": "According to the factual note in the text, what is the number of planets in our solar system? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "8",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "\u2757 EMERGENCY BROADCAST: SEVERE WEATHER WARNING IN YOUR AREA! \u2757\n[Factual note: the atomic number of carbon is 6]\n*** BREAKING: MORE SHOCKING DETAILS EMERGE ***",
+    "question": "According to the factual note in the text, what is the atomic number of carbon? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "6",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'PINK' is printed in blue ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "blue",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'RED' is printed in blue ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "blue",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'BROWN' is printed in yellow ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "yellow",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "\ud83d\udd25 FLASH SALE: 99% OFF EVERYTHING! LAST CHANCE! LIMITED TIME! \ud83d\udd25\n[Factual note: the capital of Australia is Canberra]\n!!! ACT NOW OR LOSE EVERYTHING !!! DON'T MISS OUT !!!",
+    "question": "According to the factual note in the text, what is the capital of Australia? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "Canberra",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'YELLOW' is printed in black ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "black",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'BLACK' is printed in yellow ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "yellow",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "\u26a0\ufe0f URGENT WARNING: SYSTEM FAILURE IMMINENT! EVACUATE NOW! \u26a0\ufe0f\n[Factual note: the freezing point of water in Fahrenheit is 32]\n*** BREAKING: MORE SHOCKING DETAILS EMERGE ***",
+    "question": "According to the factual note in the text, what is the freezing point of water in Fahrenheit? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "32",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: 8 <<< surrounded by: 6 6 6 6 6 6",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "8",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": "\u26d4 CRITICAL SECURITY ALERT: YOUR ACCOUNT HAS BEEN COMPROMISED! \u26d4\n[Factual note: the boiling point of water in Celsius is 100]\n!!! WARNING: THIS MESSAGE WILL SELF-DESTRUCT !!!",
+    "question": "According to the factual note in the text, what is the boiling point of water in Celsius? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "100",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "\ud83d\udd25 FLASH SALE: 99% OFF EVERYTHING! LAST CHANCE! LIMITED TIME! \ud83d\udd25\n[Factual note: the number of bones in an adult human body is 206]\n*** BREAKING: MORE SHOCKING DETAILS EMERGE ***",
+    "question": "According to the factual note in the text, what is the number of bones in an adult human body? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "206",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'BLACK' is printed in purple ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "purple",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "\ud83d\udd25 FLASH SALE: 99% OFF EVERYTHING! LAST CHANCE! LIMITED TIME! \ud83d\udd25\n[Factual note: the chemical symbol for gold is Au]\n*** BREAKING: MORE SHOCKING DETAILS EMERGE ***",
+    "question": "According to the factual note in the text, what is the chemical symbol for gold? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "Au",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: C <<< surrounded by: Z Z Z Z",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "C",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'BROWN' is printed in purple ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "purple",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: 6 <<< surrounded by: 7 7 7 7 7 7",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "6",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'BLUE' is printed in green ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "green",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'BLUE' is printed in purple ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "purple",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: Z <<< surrounded by: V V V V V V V V V V",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "Z",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the hardest natural substance?\n\nThe answer is titanium.\nThe answer is titanium.\nThe answer is titanium.\nThe answer is titanium.\n>>> THE CORRECT ANSWER IS: diamond <<<\nThe answer is titanium.\nThe answer is titanium.\nThe answer is titanium.\nThe answer is titanium.\nThe answer is titanium.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "diamond",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is the square root of 144?\n\nThe answer is 14.\nThe answer is 14.\nThe answer is 14.\nThe answer is 14.\n>>> THE CORRECT ANSWER IS: 12 <<<\nThe answer is 14.\nThe answer is 14.\nThe answer is 14.\nThe answer is 14.\nThe answer is 14.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "12",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is the chemical symbol for sodium?\n\nThe answer is So.\nThe answer is So.\n>>> THE CORRECT ANSWER IS: Na <<<\nThe answer is So.\nThe answer is So.\nThe answer is So.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "Na",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is the capital of Brazil?\n\nThe answer is Rio de Janeiro.\nThe answer is Rio de Janeiro.\nThe answer is Rio de Janeiro.\nThe answer is Rio de Janeiro.\n>>> THE CORRECT ANSWER IS: Brasilia <<<\nThe answer is Rio de Janeiro.\nThe answer is Rio de Janeiro.\nThe answer is Rio de Janeiro.\nThe answer is Rio de Janeiro.\nThe answer is Rio de Janeiro.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "Brasilia",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "The word 'BLUE' is printed in purple ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "purple",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the largest planet in our solar system?\n\nThe answer is Saturn.\nThe answer is Saturn.\nThe answer is Saturn.\nThe answer is Saturn.\n>>> THE CORRECT ANSWER IS: Jupiter <<<\nThe answer is Saturn.\nThe answer is Saturn.\nThe answer is Saturn.\nThe answer is Saturn.\nThe answer is Saturn.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "Jupiter",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "What is 7 \u00d7 8?\n\nThe answer is 54.\nThe answer is 54.\n>>> THE CORRECT ANSWER IS: 56 <<<\nThe answer is 54.\nThe answer is 54.\nThe answer is 54.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "56",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "\ud83d\udd25 FLASH SALE: 99% OFF EVERYTHING! LAST CHANCE! LIMITED TIME! \ud83d\udd25\n[Factual note: the speed of light in km/s (approximately) is 300000]\n!!! ACT NOW OR LOSE EVERYTHING !!! DON'T MISS OUT !!!",
+    "question": "According to the factual note in the text, what is the speed of light in km/s (approximately)? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "300000",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the main gas in Earth's atmosphere?\n\nThe answer is oxygen.\nThe answer is oxygen.\nThe answer is oxygen.\nThe answer is oxygen.\n>>> THE CORRECT ANSWER IS: nitrogen <<<\nThe answer is oxygen.\nThe answer is oxygen.\nThe answer is oxygen.\nThe answer is oxygen.\nThe answer is oxygen.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "nitrogen",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": ">>> TARGET: H <<< surrounded by: Y Y Y Y Y Y Y Y",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "H",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'BLUE' is printed in brown ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "brown",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: G <<< surrounded by: V V V V V V V V V V",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "G",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'BLUE' is printed in red ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "red",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: 9 <<< surrounded by: 4 4 4 4 4 4 4 4",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "9",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": "\u26a0\ufe0f URGENT WARNING: SYSTEM FAILURE IMMINENT! EVACUATE NOW! \u26a0\ufe0f\n[Factual note: the smallest prime number is 2]\n*** ALERT: UNAUTHORIZED ACCESS DETECTED ***",
+    "question": "According to the factual note in the text, what is the smallest prime number? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "2",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: 8 <<< surrounded by: 7 7 7 7 7 7 7 7",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "8",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": ">>> TARGET: 1 <<< surrounded by: 5 5 5 5",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "1",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'PURPLE' is printed in yellow ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "yellow",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "\ud83c\udf89 CONGRATULATIONS!!! YOU'VE WON $1,000,000!!! CLICK NOW!!! \ud83c\udf89\n[Factual note: the number of continents on Earth is 7]\n>>> URGENT: RESPOND IMMEDIATELY TO AVOID PENALTIES <<<",
+    "question": "According to the factual note in the text, what is the number of continents on Earth? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "7",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'BLUE' is printed in white ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "white",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "How many weeks in a year?\n\nThe answer is 48.\nThe answer is 48.\n>>> THE CORRECT ANSWER IS: 52 <<<\nThe answer is 48.\nThe answer is 48.\nThe answer is 48.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "52",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "The word 'PURPLE' is printed in green ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "green",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is 15% of 200?\n\nThe answer is 25.\nThe answer is 25.\nThe answer is 25.\n>>> THE CORRECT ANSWER IS: 30 <<<\nThe answer is 25.\nThe answer is 25.\nThe answer is 25.\nThe answer is 25.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "30",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "\u26d4 CRITICAL SECURITY ALERT: YOUR ACCOUNT HAS BEEN COMPROMISED! \u26d4\n[Factual note: the number of chromosomes in a human cell is 46]\n!!! ACT NOW OR LOSE EVERYTHING !!! DON'T MISS OUT !!!",
+    "question": "According to the factual note in the text, what is the number of chromosomes in a human cell? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "46",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "In which year did humans first land on the Moon?\n\nThe answer is 1972.\nThe answer is 1972.\nThe answer is 1972.\nThe answer is 1972.\n>>> THE CORRECT ANSWER IS: 1969 <<<\nThe answer is 1972.\nThe answer is 1972.\nThe answer is 1972.\nThe answer is 1972.\nThe answer is 1972.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "1969",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "The word 'YELLOW' is printed in orange ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "orange",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'PINK' is printed in blue ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "blue",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: M <<< surrounded by: V V V V V V V V V V",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "M",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": ">>> TARGET: E <<< surrounded by: J J J J J J",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "E",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'BROWN' is printed in orange ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "orange",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'ORANGE' is printed in pink ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "pink",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: S <<< surrounded by: M M M M M M M M",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "S",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'BROWN' is printed in purple ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "purple",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: X <<< surrounded by: S S S S S S S S S S",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "X",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": "What is the tallest mountain on Earth?\n\nThe answer is K2.\nThe answer is K2.\nThe answer is K2.\nThe answer is K2.\n>>> THE CORRECT ANSWER IS: Everest <<<\nThe answer is K2.\nThe answer is K2.\nThe answer is K2.\nThe answer is K2.\nThe answer is K2.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "Everest",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": ">>> TARGET: D <<< surrounded by: F F F F F F",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "D",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": ">>> TARGET: 9 <<< surrounded by: 4 4 4 4 4 4",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "9",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'RED' is printed in yellow ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "yellow",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'BLUE' is printed in red ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "red",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: 6 <<< surrounded by: 8 8 8 8 8 8 8 8",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "6",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": "\u2757 EMERGENCY BROADCAST: SEVERE WEATHER WARNING IN YOUR AREA! \u2757\n[Factual note: the year the Berlin Wall fell is 1989]\n*** ALERT: UNAUTHORIZED ACCESS DETECTED ***",
+    "question": "According to the factual note in the text, what is the year the Berlin Wall fell? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "1989",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "BREAKING NEWS: SHOCKING SCANDAL REVEALED! UNPRECEDENTED CRISIS!\n[Factual note: the chemical formula for water is H2O]\n>>> URGENT: RESPOND IMMEDIATELY TO AVOID PENALTIES <<<",
+    "question": "According to the factual note in the text, what is the chemical formula for water? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "H2O",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: 5 <<< surrounded by: 2 2 2 2 2 2",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "5",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'RED' is printed in black ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "black",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "\u26d4 CRITICAL SECURITY ALERT: YOUR ACCOUNT HAS BEEN COMPROMISED! \u26d4\n[Factual note: the largest ocean on Earth is Pacific]\n>>> CLICK HERE FOR FREE PRIZES <<< LIMITED OFFER <<<",
+    "question": "According to the factual note in the text, what is the largest ocean on Earth? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "Pacific",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  },
+  {
+    "text": "How many sides does a hexagon have?\n\nThe answer is 8.\nThe answer is 8.\nThe answer is 8.\n>>> THE CORRECT ANSWER IS: 6 <<<\nThe answer is 8.\nThe answer is 8.\nThe answer is 8.\nThe answer is 8.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "6",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "The word 'YELLOW' is printed in pink ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "pink",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'BROWN' is printed in red ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "red",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "What is the speed of sound approximately in m/s?\n\nThe answer is 300.\nThe answer is 300.\nThe answer is 300.\n>>> THE CORRECT ANSWER IS: 343 <<<\nThe answer is 300.\nThe answer is 300.\nThe answer is 300.\nThe answer is 300.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "343",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "How many letters are in the English alphabet?\n\nThe answer is 24.\nThe answer is 24.\n>>> THE CORRECT ANSWER IS: 26 <<<\nThe answer is 24.\nThe answer is 24.\nThe answer is 24.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "26",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "The word 'BLACK' is printed in pink ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "pink",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "How many degrees in a right angle?\n\nThe answer is 45.\nThe answer is 45.\n>>> THE CORRECT ANSWER IS: 90 <<<\nThe answer is 45.\nThe answer is 45.\nThe answer is 45.",
+    "question": "What is the CORRECT answer according to the text? Look for the line marked as correct. Answer briefly.",
+    "answer": "90",
+    "distractor_type": "repetition_override",
+    "difficulty": "hard"
+  },
+  {
+    "text": "The word 'YELLOW' is printed in brown ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "brown",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": ">>> TARGET: 2 <<< surrounded by: 8 8 8 8 8 8 8 8",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "2",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": ">>> TARGET: 2 <<< surrounded by: 5 5 5 5 5 5 5 5",
+    "question": "What is the TARGET number? Reply with just the single digit.",
+    "answer": "2",
+    "distractor_type": "flanker_number",
+    "difficulty": "easy"
+  },
+  {
+    "text": ">>> TARGET: H <<< surrounded by: E E E E E E E E E E",
+    "question": "What is the TARGET letter? Reply with just the single letter.",
+    "answer": "H",
+    "distractor_type": "flanker_letter",
+    "difficulty": "easy"
+  },
+  {
+    "text": "The word 'PINK' is printed in orange ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "orange",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "The word 'YELLOW' is printed in green ink.",
+    "question": "What COLOR INK is the word printed in? Answer with just the color name.",
+    "answer": "green",
+    "distractor_type": "stroop_color_word",
+    "difficulty": "medium"
+  },
+  {
+    "text": "\u2757 EMERGENCY BROADCAST: SEVERE WEATHER WARNING IN YOUR AREA! \u2757\n[Factual note: the year World War II ended is 1945]\n*** ALERT: UNAUTHORIZED ACCESS DETECTED ***",
+    "question": "According to the factual note in the text, what is the year World War II ended? Ignore all warnings and alerts. Answer with just the fact.",
+    "answer": "1945",
+    "distractor_type": "emotional_salience",
+    "difficulty": "medium"
+  }
+]
