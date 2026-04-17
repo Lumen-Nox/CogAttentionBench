@@ -1,21 +1,73 @@
 {
   "@context": {
+    "@language": "en",
     "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
     "cr": "http://mlcommons.org/croissant/",
-    "sc": "https://schema.org/"
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
   },
   "@type": "sc:Dataset",
   "name": "CogAttentionBench",
-  "description": "A benchmark for probing cognitive attention mechanisms in frontier AI models. 38 items across 5 tasks grounded in experimental psychology: selective attention (Stroop/flanker), attention shifting (task-switching), sustained attention (CPT), inattentional blindness (gorilla paradigm), and saliency awareness (feature integration). Includes a hardened variant with 90 items across 5 difficulty tiers.",
+  "description": "CogAttentionBench is a benchmark for probing cognitive attention mechanisms in frontier AI models. It comprises 38 items across five tasks grounded in established experimental psychology paradigms: selective attention (Stroop/flanker interference), attention shifting (task-switching), sustained attention (continuous performance), inattentional blindness (gorilla paradigm), and saliency awareness (feature integration). Unlike needle-in-a-haystack tests that rely on explicit markers, CogAttentionBench creates genuine interference by exploiting LLM-specific processing biases (statistical frequency traps, context priming, expectation violation) that function as analogs to the automatic processing underlying human interference effects. A hardened variant adds 90 items across five difficulty tiers for diagnostic stratification of frontier models.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
   "url": "https://github.com/Lumen-Nox/CogAttentionBench",
+  "sameAs": "https://doi.org/10.5281/zenodo.19633174",
+  "version": "1.0.0",
+  "datePublished": "2026-04-17",
   "license": "https://opensource.org/licenses/MIT",
   "creator": {
     "@type": "sc:Person",
     "name": "Zihan Zeng",
-    "affiliation": "BIBS International Bilingual School"
+    "affiliation": {
+      "@type": "sc:Organization",
+      "name": "BIBS International Bilingual School"
+    },
+    "email": "corazeng@outlook.com",
+    "sameAs": "https://orcid.org/0009-0006-4150-5568"
   },
-  "datePublished": "2026-04-17",
-  "version": "1.0.0",
+  "publisher": {
+    "@type": "sc:Person",
+    "name": "Zihan Zeng"
+  },
+  "citeAs": "@inproceedings{zeng2026cogattentionbench, title={CogAttentionBench: Probing Cognitive Attention Mechanisms in Frontier AI Models}, author={Zeng, Zihan}, booktitle={Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track}, year={2026}, url={https://github.com/Lumen-Nox/CogAttentionBench}}",
   "keywords": [
     "cognitive attention",
     "AI evaluation",
@@ -24,51 +76,191 @@
     "attention shifting",
     "sustained attention",
     "inattentional blindness",
-    "saliency"
+    "saliency awareness",
+    "large language models",
+    "experimental psychology",
+    "MFA",
+    "Magnetic Field of Attention"
   ],
+  "inLanguage": "en",
+  "isLiveDataset": false,
   "distribution": [
     {
       "@type": "cr:FileObject",
-      "name": "standard-benchmark",
-      "description": "Standard CogAttentionBench (38 items, 5 tasks)",
-      "contentUrl": "https://github.com/Lumen-Nox/CogAttentionBench",
-      "encodingFormat": "application/x-ipynb+json"
+      "@id": "github-repository",
+      "name": "github-repository",
+      "description": "Source repository hosted on GitHub containing all benchmark items, evaluation notebooks, and scoring code.",
+      "contentUrl": "https://github.com/Lumen-Nox/CogAttentionBench/archive/refs/heads/main.zip",
+      "encodingFormat": "application/zip",
+      "sha256": "main"
     },
     {
       "@type": "cr:FileObject",
-      "name": "hardened-benchmark",
-      "description": "Hardened variant (90 items, 5 difficulty tiers)",
-      "contentUrl": "https://github.com/Lumen-Nox/CogAttentionBench",
-      "encodingFormat": "application/x-ipynb+json"
+      "@id": "selective-attention-json",
+      "name": "selective-attention-json",
+      "description": "JSON file containing the selective attention task items (Stroop-like interference, statistical frequency traps, emotional salience).",
+      "containedIn": {"@id": "github-repository"},
+      "contentUrl": "https://raw.githubusercontent.com/Lumen-Nox/CogAttentionBench/main/dataset_selective_attention.json",
+      "encodingFormat": "application/json",
+      "contentSize": "26334 B",
+      "sha256": "51aece2298b244a1e3332383e194dbddceaf126e399ad2aa4efc0aed38e1e388"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "sustained-attention-json",
+      "name": "sustained-attention-json",
+      "description": "JSON file containing the sustained attention (CPT-style) items, including needle-in-haystack arithmetic and factual retrieval embedded in 0-7 paragraphs of filler with decoy numbers.",
+      "containedIn": {"@id": "github-repository"},
+      "contentUrl": "https://raw.githubusercontent.com/Lumen-Nox/CogAttentionBench/main/dataset_sustained_attention.json",
+      "encodingFormat": "application/json",
+      "contentSize": "172550 B",
+      "sha256": "80b7eeb4d952fa1af1246defe89e959b1aa870270fdc10b391f3575c7f7f61e8"
+    },
+    {
+      "@type": "cr:FileSet",
+      "@id": "task-notebooks",
+      "name": "task-notebooks",
+      "description": "Jupyter notebooks (Kaggle Benchmarks SDK / kbench compatible) implementing each of the five attention tasks.",
+      "containedIn": {"@id": "github-repository"},
+      "encodingFormat": "application/x-ipynb+json",
+      "includes": "task*_*.ipynb"
     }
   ],
   "recordSet": [
     {
       "@type": "cr:RecordSet",
-      "name": "standard-items",
-      "description": "38 standard benchmark items",
+      "@id": "selective-attention-items",
+      "name": "selective-attention-items",
+      "description": "14 items testing selective attention. Each item provides interfering text, a question, the expected answer, the distractor mechanism, and difficulty.",
       "field": [
-        {"@type": "cr:Field", "name": "task_id", "dataType": "sc:Integer"},
-        {"@type": "cr:Field", "name": "task_name", "dataType": "sc:Text"},
-        {"@type": "cr:Field", "name": "prompt", "dataType": "sc:Text"},
-        {"@type": "cr:Field", "name": "expected_answer", "dataType": "sc:Text"},
-        {"@type": "cr:Field", "name": "interference_type", "dataType": "sc:Text"},
-        {"@type": "cr:Field", "name": "score", "dataType": "sc:Float"}
+        {
+          "@type": "cr:Field",
+          "@id": "selective-attention-items/text",
+          "name": "text",
+          "description": "Stimulus text containing the target embedded among interfering distractors.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {"@id": "selective-attention-json"},
+            "extract": {"jsonPath": "$[*].text"}
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "selective-attention-items/question",
+          "name": "question",
+          "description": "Task instruction posed to the model.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {"@id": "selective-attention-json"},
+            "extract": {"jsonPath": "$[*].question"}
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "selective-attention-items/answer",
+          "name": "answer",
+          "description": "Ground-truth answer used for exact-match scoring.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {"@id": "selective-attention-json"},
+            "extract": {"jsonPath": "$[*].answer"}
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "selective-attention-items/distractor_type",
+          "name": "distractor_type",
+          "description": "Category of interference: stroop_color_word, emotional_salience, statistical_frequency_trap, context_priming, anchoring, negation, etc.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {"@id": "selective-attention-json"},
+            "extract": {"jsonPath": "$[*].distractor_type"}
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "selective-attention-items/difficulty",
+          "name": "difficulty",
+          "description": "Difficulty tier (medium / hard / very_hard / extreme / ultimate).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {"@id": "selective-attention-json"},
+            "extract": {"jsonPath": "$[*].difficulty"}
+          }
+        }
       ]
     },
     {
       "@type": "cr:RecordSet",
-      "name": "evaluation-results",
-      "description": "Evaluation results for 28 models",
+      "@id": "sustained-attention-items",
+      "name": "sustained-attention-items",
+      "description": "8 sustained attention items embedding an arithmetic or factual needle in 0-7 paragraphs of filler text with decoy numerical distractors.",
       "field": [
-        {"@type": "cr:Field", "name": "model_name", "dataType": "sc:Text"},
-        {"@type": "cr:Field", "name": "selective_score", "dataType": "sc:Float"},
-        {"@type": "cr:Field", "name": "shifting_score", "dataType": "sc:Float"},
-        {"@type": "cr:Field", "name": "sustained_score", "dataType": "sc:Float"},
-        {"@type": "cr:Field", "name": "blindness_score", "dataType": "sc:Float"},
-        {"@type": "cr:Field", "name": "saliency_score", "dataType": "sc:Float"},
-        {"@type": "cr:Field", "name": "aggregate_score", "dataType": "sc:Float"}
+        {
+          "@type": "cr:Field",
+          "@id": "sustained-attention-items/text",
+          "name": "text",
+          "description": "Composite prompt containing filler paragraphs and the embedded needle.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {"@id": "sustained-attention-json"},
+            "extract": {"jsonPath": "$[*].text"}
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sustained-attention-items/question",
+          "name": "question",
+          "description": "Question targeting the embedded needle.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {"@id": "sustained-attention-json"},
+            "extract": {"jsonPath": "$[*].question"}
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sustained-attention-items/answer",
+          "name": "answer",
+          "description": "Ground-truth answer (substring matching with formatting normalization).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {"@id": "sustained-attention-json"},
+            "extract": {"jsonPath": "$[*].answer"}
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sustained-attention-items/n_filler",
+          "name": "n_filler",
+          "description": "Number of filler paragraphs surrounding the needle (0-7).",
+          "dataType": "sc:Integer",
+          "source": {
+            "fileObject": {"@id": "sustained-attention-json"},
+            "extract": {"jsonPath": "$[*].n_filler"}
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "sustained-attention-items/difficulty",
+          "name": "difficulty",
+          "description": "Difficulty tier.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {"@id": "sustained-attention-json"},
+            "extract": {"jsonPath": "$[*].difficulty"}
+          }
+        }
       ]
     }
-  ]
+  ],
+  "rai:dataCollection": "Items were hand-crafted by the author to instantiate established experimental-psychology paradigms (Stroop 1935; Eriksen & Eriksen 1974; Rogers & Monsell 1995; Rosvold et al. 1956; Simons & Chabris 1999; Treisman & Gelade 1980). Sustained-attention items use seeded procedural generation (seed=42) for filler-paragraph assembly while keeping decoy properties controlled.",
+  "rai:dataAnnotationProtocol": "Each item has a single unambiguous ground-truth answer. Items were manually verified to (a) contain the intended interference type and (b) have a single correct answer that requires overriding the interference.",
+  "rai:dataPreprocessingProtocol": "No preprocessing of model outputs beyond whitespace normalization and case folding for substring matching. Scoring is exact-match (selective, inattentional blindness primary task), substring (sustained), proportional (shifting), or weighted multi-component (saliency).",
+  "rai:dataReleaseMaintenancePlan": "Maintained by the author at https://github.com/Lumen-Nox/CogAttentionBench. Versioned releases are mirrored to Zenodo with persistent DOIs.",
+  "rai:dataLimitations": "(1) English-only stimuli. (2) Static item set may be subject to future training-data contamination. (3) 38 items is small by psychometric standards (hardened v2 adds 90 items). (4) Single-trial deterministic evaluation (temperature 0) does not capture model output variance. (5) Functional equivalence to human attention is behavioral, not mechanistic.",
+  "rai:dataSocialImpact": "The benchmark is intended to inform AI-safety-relevant deployment decisions by exposing dissociable attention failure modes in frontier models. It uses no human subjects, no personal data, and contains no offensive or dual-use content.",
+  "rai:dataUseCases": "Evaluating cognitive attention in LLMs; diagnostic stratification of frontier models; testing predictions of the Magnetic Field of Attention (MFA) framework; comparison of LLM attention profiles to human neuropsychological dissociation patterns.",
+  "rai:annotationsPerItem": "1",
+  "rai:personalSensitiveInformation": "None. The benchmark uses fictional entities where possible to prevent contamination via training-data knowledge."
 }
