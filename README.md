@@ -2,6 +2,11 @@
 
 **Probing Cognitive Attention in Frontier AI Models**
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19633174.svg)](https://doi.org/10.5281/zenodo.19633174)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Croissant](https://img.shields.io/badge/Croissant-1.0-orange)](croissant_metadata.json)
+[![NeurIPS 2026](https://img.shields.io/badge/NeurIPS_2026-Datasets_%26_Benchmarks-blue)](https://neurips.cc/Conferences/2026/CallForDatasetsBenchmarks)
+
 ![CogAttentionBench](cogattentionbench_cover.png)
 
 ## Overview
@@ -10,10 +15,11 @@ CogAttentionBench measures whether AI models exhibit the cognitive attention pat
 
 > Current attention tests (e.g., needle-in-a-haystack) use explicit markers that LLMs trivially parse. CogAttentionBench creates **real interference** — competing signals where the correct response requires suppressing stronger but incorrect signals.
 
-**Competition:** Google DeepMind × Kaggle: Measuring Progress Toward AGI  
-**Track:** Attention  
-**Author:** [Cora Zeng](https://github.com/xqscora)  
-**Theoretical Foundation:** [Magnetic Field of Attention (MFA)](https://doi.org/10.31234/osf.io/mfa) framework (Zeng, 2026)
+**Submission:** NeurIPS 2026 Datasets & Benchmarks Track
+**Originally Built For:** Google DeepMind × Kaggle: Measuring Progress Toward AGI (Attention track)
+**Author:** [Cora Zeng](https://github.com/xqscora) (Lumen-Nox)
+**Theoretical Foundation:** [Magnetic Field of Attention (MFA)](https://doi.org/10.5281/zenodo.18979607) framework (Zeng, 2026)
+**Archived Dataset:** [10.5281/zenodo.19633174](https://doi.org/10.5281/zenodo.19633174)
 
 ## Five Tasks
 
@@ -51,10 +57,21 @@ CogAttentionBench measures whether AI models exhibit the cognitive attention pat
 3. **DeepSeek V3.1 shows selective attention deficit.** 0.00 on selective despite strong others — pattern reminiscent of Stroop interference in humans.
 4. **Inattentional blindness reveals a frontier boundary.** All frontier models: 1.00; Gemma 1B: 0.00.
 
+## NeurIPS 2026 Datasets & Benchmarks Track
+
+This benchmark is being submitted to NeurIPS 2026 D&B Track. The following artifacts are provided for review and reproducibility:
+
+- [`NEURIPS_PAPER.md`](NEURIPS_PAPER.md) — full paper draft (markdown source)
+- [`croissant_metadata.json`](croissant_metadata.json) — Croissant 1.0 dataset metadata (NeurIPS D&B requirement)
+- [Zenodo archive `10.5281/zenodo.19633174`](https://doi.org/10.5281/zenodo.19633174) — permanent DOI with all dataset files, paper PDF, and LaTeX source
+- All 5 task notebooks (`task1_*.ipynb` … `task5_*.ipynb`) are runnable on Kaggle benchmarks SDK
+
 ## Project Structure
 
 ```
 ├── README.md
+├── NEURIPS_PAPER.md                        # NeurIPS 2026 D&B submission (source)
+├── croissant_metadata.json                 # Croissant 1.0 metadata (NeurIPS requirement)
 ├── WRITEUP.md                              # Competition writeup (≤1500 words)
 ├── benchmark_description.md                # Kaggle benchmark description
 ├── HARDENED_TASKS_SUMMARY.md               # v2 hardening strategies
@@ -94,6 +111,8 @@ Key hardening strategies:
 
 This benchmark operationalizes predictions from the **Magnetic Field of Attention (MFA)** framework (Zeng, 2026), which models attentional processes as field-theoretic gradients following F = S/r², unifying five classical attention theories (Spotlight, Gradient, Load, Resource, Spreading Activation) as special cases of a single magnetic field equation.
 
+MFA preprint: [10.5281/zenodo.18979607](https://doi.org/10.5281/zenodo.18979607)
+
 ## Built With
 
 - [kaggle-benchmarks SDK](https://github.com/Kaggle/kaggle-benchmarks) (`kbench`)
@@ -103,18 +122,20 @@ This benchmark operationalizes predictions from the **Magnetic Field of Attentio
 ## Citation
 
 ```bibtex
-@misc{zeng2026cogattentionbench,
-  author = {Zeng, Zihan},
-  title = {CogAttentionBench: Probing Cognitive Attention Mechanisms in Frontier AI Models},
-  year = {2026},
-  publisher = {GitHub},
-  url = {https://github.com/Lumen-Nox/CogAttentionBench}
+@inproceedings{zeng2026cogattentionbench,
+  author    = {Zeng, Zihan},
+  title     = {CogAttentionBench: Probing Cognitive Attention Mechanisms in Frontier AI Models},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS),
+               Datasets and Benchmarks Track},
+  year      = {2026},
+  doi       = {10.5281/zenodo.19633174},
+  url       = {https://github.com/Lumen-Nox/CogAttentionBench}
 }
 ```
 
 ## References
 
-- Zeng, Z. (2026). *Attention as a Magnetic Field: A Unifying Framework.* Under review.
+- Zeng, Z. (2026). *Attention as a Magnetic Field: A Unifying Framework.* Zenodo. [10.5281/zenodo.18979607](https://doi.org/10.5281/zenodo.18979607)
 - Stroop, J. R. (1935). Studies of interference in serial verbal reactions. *J. Exp. Psychol.*, 18(6), 643–662.
 - Eriksen, B. A., & Eriksen, C. W. (1974). Effects of noise letters upon identification. *Perception & Psychophysics*, 16, 143–149.
 - Rogers, R. D., & Monsell, S. (1995). Costs of a predictable switch. *J. Exp. Psychol.: General*, 124(2), 207–231.
