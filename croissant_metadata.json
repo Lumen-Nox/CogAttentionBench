@@ -1,0 +1,74 @@
+{
+  "@context": {
+    "@vocab": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "sc": "https://schema.org/"
+  },
+  "@type": "sc:Dataset",
+  "name": "CogAttentionBench",
+  "description": "A benchmark for probing cognitive attention mechanisms in frontier AI models. 38 items across 5 tasks grounded in experimental psychology: selective attention (Stroop/flanker), attention shifting (task-switching), sustained attention (CPT), inattentional blindness (gorilla paradigm), and saliency awareness (feature integration). Includes a hardened variant with 90 items across 5 difficulty tiers.",
+  "url": "https://github.com/Lumen-Nox/CogAttentionBench",
+  "license": "https://opensource.org/licenses/MIT",
+  "creator": {
+    "@type": "sc:Person",
+    "name": "Zihan Zeng",
+    "affiliation": "BIBS International Bilingual School"
+  },
+  "datePublished": "2026-04-17",
+  "version": "1.0.0",
+  "keywords": [
+    "cognitive attention",
+    "AI evaluation",
+    "benchmark",
+    "Stroop effect",
+    "attention shifting",
+    "sustained attention",
+    "inattentional blindness",
+    "saliency"
+  ],
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "name": "standard-benchmark",
+      "description": "Standard CogAttentionBench (38 items, 5 tasks)",
+      "contentUrl": "https://github.com/Lumen-Nox/CogAttentionBench",
+      "encodingFormat": "application/x-ipynb+json"
+    },
+    {
+      "@type": "cr:FileObject",
+      "name": "hardened-benchmark",
+      "description": "Hardened variant (90 items, 5 difficulty tiers)",
+      "contentUrl": "https://github.com/Lumen-Nox/CogAttentionBench",
+      "encodingFormat": "application/x-ipynb+json"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "name": "standard-items",
+      "description": "38 standard benchmark items",
+      "field": [
+        {"@type": "cr:Field", "name": "task_id", "dataType": "sc:Integer"},
+        {"@type": "cr:Field", "name": "task_name", "dataType": "sc:Text"},
+        {"@type": "cr:Field", "name": "prompt", "dataType": "sc:Text"},
+        {"@type": "cr:Field", "name": "expected_answer", "dataType": "sc:Text"},
+        {"@type": "cr:Field", "name": "interference_type", "dataType": "sc:Text"},
+        {"@type": "cr:Field", "name": "score", "dataType": "sc:Float"}
+      ]
+    },
+    {
+      "@type": "cr:RecordSet",
+      "name": "evaluation-results",
+      "description": "Evaluation results for 28 models",
+      "field": [
+        {"@type": "cr:Field", "name": "model_name", "dataType": "sc:Text"},
+        {"@type": "cr:Field", "name": "selective_score", "dataType": "sc:Float"},
+        {"@type": "cr:Field", "name": "shifting_score", "dataType": "sc:Float"},
+        {"@type": "cr:Field", "name": "sustained_score", "dataType": "sc:Float"},
+        {"@type": "cr:Field", "name": "blindness_score", "dataType": "sc:Float"},
+        {"@type": "cr:Field", "name": "saliency_score", "dataType": "sc:Float"},
+        {"@type": "cr:Field", "name": "aggregate_score", "dataType": "sc:Float"}
+      ]
+    }
+  ]
+}
