@@ -55,19 +55,19 @@
   "license": "https://opensource.org/licenses/MIT",
   "creator": {
     "@type": "sc:Person",
-    "name": "Zihan Zeng",
+    "name": "Cora Zeng",
     "affiliation": {
       "@type": "sc:Organization",
       "name": "BIBS International Bilingual School"
     },
-    "email": "corazeng@outlook.com",
+    "email": "xqscora@gmail.com",
     "sameAs": "https://orcid.org/0009-0006-4150-5568"
   },
   "publisher": {
     "@type": "sc:Person",
-    "name": "Zihan Zeng"
+    "name": "Cora Zeng"
   },
-  "citeAs": "@inproceedings{zeng2026cogattentionbench, title={CogAttentionBench: Probing Cognitive Attention Mechanisms in Frontier AI Models}, author={Zeng, Zihan}, booktitle={Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track}, year={2026}, url={https://github.com/Lumen-Nox/CogAttentionBench}}",
+  "citeAs": "@inproceedings{zeng2026cogattentionbench, title={CogAttentionBench: Probing Cognitive Attention Mechanisms in Frontier AI Models}, author={Zeng, Cora}, booktitle={Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track}, year={2026}, url={https://github.com/Lumen-Nox/CogAttentionBench}}",
   "keywords": [
     "cognitive attention",
     "AI evaluation",

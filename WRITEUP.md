@@ -1,6 +1,6 @@
 # CogAttentionBench: Measuring Cognitive Attention in Frontier AI Models
 
-### Zihan Zeng (cora zeng)
+### Cora Zeng
 
 ### Problem Statement
 
@@ -114,7 +114,7 @@ Independent high school researcher. Bick International Bilingual School (BIBS), 
 
 ### References & Citations
 
-- Zeng, Z. (2026). The Magnetic Field of Attention: A Unified Framework for Selective Attention. *Under review, Nature Communications.*
+- Zeng, C. (2026). The Magnetic Field of Attention: A Unified Framework for Selective Attention. *Under review, Nature Communications.*
 - Stroop, J. R. (1935). Studies of interference in serial verbal reactions. *Journal of Experimental Psychology*, 18(6), 643–662.
 - Eriksen, B. A., & Eriksen, C. W. (1974). Effects of noise letters upon identification. *Perception & Psychophysics*, 16, 143–149.
 - Rogers, R. D., & Monsell, S. (1995). Costs of a predictable switch between simple cognitive tasks. *Journal of Experimental Psychology: General*, 124(2), 207–231.

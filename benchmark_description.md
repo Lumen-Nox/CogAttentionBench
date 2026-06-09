@@ -39,7 +39,7 @@ This benchmark is informed by the *Magnetic Field of Attention* (MFA) framework 
 
 ```bibtex
 @misc{zeng2026cogattentionbench,
-  author = {Zeng, Zihan},
+  author = {Zeng, Cora},
   title = {CogAttentionBench: Probing Cognitive Attention Mechanisms in Frontier AI Models},
   year = {2026},
   url = {https://www.kaggle.com/benchmarks/corazeng/cogattentionbench}

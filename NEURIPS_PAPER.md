@@ -1,8 +1,8 @@
 # CogAttentionBench: Probing Cognitive Attention Mechanisms in Frontier AI Models
 
-**Zihan Zeng**
+**Cora Zeng**
 BIBS International Bilingual School, Chengdu, China
-corazeng@outlook.com
+xqscora@gmail.com
 
 ---
 
@@ -322,7 +322,7 @@ Warm, J. S., Parasuraman, R., & Matthews, G. (2008). Vigilance requires hard men
 
 Wu, Z., et al. (2025). Characterizing attention head behavior in transformer language models. *Advances in Neural Information Processing Systems (NeurIPS)*, 38.
 
-Zeng, Z. (2026). Attention as a magnetic field: A unifying framework for attentional gradient, load, and incidental processing. *Manuscript in preparation*.
+Zeng, C. (2026). Attention as a magnetic field: A unifying framework for attentional gradient, load, and incidental processing. *Manuscript in preparation*.
 
 Zhong, W., Cui, R., Guo, Y., Liang, Y., Lu, S., Wang, Y., Saied, A., Chen, W., & Duan, N. (2024). AGIEval: A human-centric benchmark for evaluating foundation models. *Findings of the Association for Computational Linguistics: NAACL 2024*.
 
@@ -342,7 +342,7 @@ Zhong, W., Cui, R., Guo, Y., Liang, Y., Lu, S., Wang, Y., Saied, A., Chen, W., &
 ```bibtex
 @inproceedings{zeng2026cogattentionbench,
   title     = {CogAttentionBench: Probing Cognitive Attention Mechanisms in Frontier AI Models},
-  author    = {Zeng, Zihan},
+  author    = {Zeng, Cora},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track},
   year      = {2026},
   url       = {https://github.com/Lumen-Nox/CogAttentionBench}

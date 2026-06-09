@@ -123,7 +123,7 @@ MFA preprint: [10.5281/zenodo.18979607](https://doi.org/10.5281/zenodo.18979607)
 
 ```bibtex
 @inproceedings{zeng2026cogattentionbench,
-  author    = {Zeng, Zihan},
+  author    = {Zeng, Cora},
   title     = {CogAttentionBench: Probing Cognitive Attention Mechanisms in Frontier AI Models},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS),
                Datasets and Benchmarks Track},
@@ -135,7 +135,7 @@ MFA preprint: [10.5281/zenodo.18979607](https://doi.org/10.5281/zenodo.18979607)
 
 ## References
 
-- Zeng, Z. (2026). *Attention as a Magnetic Field: A Unifying Framework.* Zenodo. [10.5281/zenodo.18979607](https://doi.org/10.5281/zenodo.18979607)
+- Zeng, C. (2026). *Attention as a Magnetic Field: A Unifying Framework.* Zenodo. [10.5281/zenodo.18979607](https://doi.org/10.5281/zenodo.18979607)
 - Stroop, J. R. (1935). Studies of interference in serial verbal reactions. *J. Exp. Psychol.*, 18(6), 643–662.
 - Eriksen, B. A., & Eriksen, C. W. (1974). Effects of noise letters upon identification. *Perception & Psychophysics*, 16, 143–149.
 - Rogers, R. D., & Monsell, S. (1995). Costs of a predictable switch. *J. Exp. Psychol.: General*, 124(2), 207–231.

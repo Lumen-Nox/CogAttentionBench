@@ -19,10 +19,10 @@
        Mechanisms in Frontier AI Models}
 
 \author{
-  Zihan Zeng \\
+  Cora Zeng \\
   BIBS International Bilingual School \\
   Chengdu, China \\
-  \texttt{corazeng@outlook.com}
+  \texttt{xqscora@gmail.com}
 }
 ```
 
