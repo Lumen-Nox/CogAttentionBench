@@ -2,7 +2,7 @@
 
 **Probing Cognitive Attention in Frontier AI Models**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19633174.svg)](https://doi.org/10.5281/zenodo.19633174)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20605758.svg)](https://doi.org/10.5281/zenodo.20605758)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Croissant](https://img.shields.io/badge/Croissant-1.0-orange)](croissant_metadata.json)
 [![NeurIPS 2026](https://img.shields.io/badge/NeurIPS_2026-Datasets_%26_Benchmarks-blue)](https://neurips.cc/Conferences/2026/CallForDatasetsBenchmarks)
@@ -19,7 +19,7 @@ CogAttentionBench measures whether AI models exhibit the cognitive attention pat
 **Originally Built For:** Google DeepMind × Kaggle: Measuring Progress Toward AGI (Attention track)
 **Author:** [Cora Zeng](https://github.com/xqscora) (Lumen-Nox)
 **Theoretical Foundation:** [Magnetic Field of Attention (MFA)](https://doi.org/10.5281/zenodo.18979607) framework (Zeng, 2026)
-**Archived Dataset:** [10.5281/zenodo.19633174](https://doi.org/10.5281/zenodo.19633174)
+**Archived Dataset:** [10.5281/zenodo.20605758](https://doi.org/10.5281/zenodo.20605758) (concept DOI: [10.5281/zenodo.19633173](https://doi.org/10.5281/zenodo.19633173))
 
 ## Five Tasks
 
@@ -63,7 +63,7 @@ This benchmark is being submitted to NeurIPS 2026 D&B Track. The following artif
 
 - [`NEURIPS_PAPER.md`](NEURIPS_PAPER.md) — full paper draft (markdown source)
 - [`croissant_metadata.json`](croissant_metadata.json) — Croissant 1.0 dataset metadata (NeurIPS D&B requirement)
-- [Zenodo archive `10.5281/zenodo.19633174`](https://doi.org/10.5281/zenodo.19633174) — permanent DOI with all dataset files, paper PDF, and LaTeX source
+- [Zenodo archive `10.5281/zenodo.20605758`](https://doi.org/10.5281/zenodo.20605758) — permanent DOI with all dataset files, paper PDF, and LaTeX source
 - All 5 task notebooks (`task1_*.ipynb` … `task5_*.ipynb`) are runnable on Kaggle benchmarks SDK
 
 ## Project Structure
@@ -128,7 +128,7 @@ MFA preprint: [10.5281/zenodo.18979607](https://doi.org/10.5281/zenodo.18979607)
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS),
                Datasets and Benchmarks Track},
   year      = {2026},
-  doi       = {10.5281/zenodo.19633174},
+  doi       = {10.5281/zenodo.20605758},
   url       = {https://github.com/Lumen-Nox/CogAttentionBench}
 }
 ```

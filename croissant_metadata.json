@@ -49,7 +49,7 @@
   "description": "CogAttentionBench is a benchmark for probing cognitive attention mechanisms in frontier AI models. It comprises 38 items across five tasks grounded in established experimental psychology paradigms: selective attention (Stroop/flanker interference), attention shifting (task-switching), sustained attention (continuous performance), inattentional blindness (gorilla paradigm), and saliency awareness (feature integration). Unlike needle-in-a-haystack tests that rely on explicit markers, CogAttentionBench creates genuine interference by exploiting LLM-specific processing biases (statistical frequency traps, context priming, expectation violation) that function as analogs to the automatic processing underlying human interference effects. A hardened variant adds 90 items across five difficulty tiers for diagnostic stratification of frontier models.",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
   "url": "https://github.com/Lumen-Nox/CogAttentionBench",
-  "sameAs": "https://doi.org/10.5281/zenodo.19633174",
+  "sameAs": "https://doi.org/10.5281/zenodo.20605758",
   "version": "1.0.0",
   "datePublished": "2026-04-17",
   "license": "https://opensource.org/licenses/MIT",
